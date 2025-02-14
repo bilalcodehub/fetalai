@@ -169,5 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-.pkl
-.pth
+
+*.pkl
+*.pth
