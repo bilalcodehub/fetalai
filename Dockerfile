@@ -31,7 +31,7 @@ RUN pip install --no-cache-dir \
     pip install --no-cache-dir \
     fastai timm datasets torcheval accelerate nbdev notebook jupyter jupyterlab ipywidgets jupyter_server segmentation_models_pytorch && \
     pip install --no-cache-dir \
-    langchain langchain-openai pymupdf pdf2image pytesseract openai pillow tiktoken faiss-cpu
+    langchain langchain-openai pymupdf pdf2image pytesseract openai pillow tiktoken faiss-cpu gdown
 
 # Create a working directory
 RUN mkdir -p /data
