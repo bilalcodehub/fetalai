@@ -29,7 +29,7 @@ RUN pip install --no-cache-dir \
     "numpy<2.0" torch==2.1.0+cu121 torchvision==0.16.0+cu121 torchaudio==2.1.0+cu121 \
     -f https://download.pytorch.org/whl/torch_stable.html && \
     pip install --no-cache-dir \
-    fastai timm datasets torcheval accelerate nbdev notebook jupyter jupyterlab ipywidgets jupyter_server segmentation_models_pytorch && \
+    fastai timm datasets torcheval accelerate nbdev notebook jupyter jupyterlab ipywidgets jupyter_server segmentation_models_pytorch tabulate opencv-python && \
     pip install --no-cache-dir \
     langchain langchain-openai pymupdf pdf2image pytesseract openai pillow tiktoken faiss-cpu gdown
 
